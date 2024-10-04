@@ -6,12 +6,21 @@
   "scripts": {
     "test": "start",
     "build": "webpack && babel backend/server.js -d backend/dist",
-    "start": "npm run build && node backend/dist/server.js"
+    "start": "npm run build && node backend/server.js"
   },
   "author": "u23616815 phillip retief",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.20.0",
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.0",
     "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
